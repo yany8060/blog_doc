@@ -3,7 +3,7 @@
 * JVM（JavaVirtualMachine，Java虚拟机）是JRE的一部分。它是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟各种计算机功能来实现的。JVM有自己完善的硬件架构，如处理器、堆栈、寄存器等，还具有相应的指令系统。Java语言最重要的特点就是跨平台运行。使用JVM就是为了支持与操作系统无关，实现跨平台。
 
 
-
+![avatar](http://wx2.sinaimg.cn/large/007h1WTYly1fysn56thu0j30sg0h9tdz.jpg)
 
 
 ### 内存模型
@@ -35,7 +35,8 @@ Java堆（Java Heap）是Java虚拟机所管理的内存中最大的一块。Jav
 
 Java 堆是垃圾收集器管理的主要区域，因此也被称作**GC堆（Garbage Collected Heap）**.从垃圾回收的角度，由于现在收集器基本都采用分代垃圾收集算法，所以Java堆还可以细分为：新生代和老年代：再细致一点有：Eden空间、From Survivor、To Survivor空间等。**进一步划分的目的是更好地回收内存，或者更快地分配内存。**
 
-
+堆模型图
+![avatar](http://wx4.sinaimg.cn/large/007h1WTYly1fysn51qwu5j30s30azmyo.jpg)
 
 #### 方法区
 
